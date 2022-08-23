@@ -25,7 +25,7 @@ const routes = [
 const BASE_PATH = "/dwf-m5-desafio";
 
 function isGithubPages() {
-  return location.host.includes("github.io");
+  return location.host.includes("mleandro11.github.io");
 }
 
 export function initRouter(container) {
