@@ -1,0 +1,21 @@
+{
+  "name": "desafio-modulo-5",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html --dist-dir build --public-url /dwf-m5-desafio",
+    "deploy": "gh-pages -d ./dist",
+    "build-and-deploy":"npm run build && npm run deploy"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.6.5",
+    "parcel": "^2.7.0"
+  },
+  "dependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}
