@@ -72,7 +72,7 @@ const state = {
             
         }
         localStorage.setItem("saved-state", JSON.stringify(newState))
-        console.log('Soy el state, he cambiado', this.data);
+        //console.log('Soy el state, he cambiado', this.data);
     },
     subscribe(callback){
         this.listeners.push(callback)
