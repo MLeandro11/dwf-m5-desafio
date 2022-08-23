@@ -49,7 +49,7 @@ export function initRouter(container) {
             
         }   
     }
-     if (location.pathname == "/" || location.pathname == "/dwf-m5-desafio") {
+     if (location.pathname == "/" || location.pathname == "/dwf-m5-desafio/") {
         goTo("/welcome")
      } else {
         handleRoute(location.pathname)
